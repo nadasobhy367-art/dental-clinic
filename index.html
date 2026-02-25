@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيادة دكتور أحمد لطب الأسنان</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-tooth">🦷</div>
+        <div class="loader-text">عيادة د. أحمد سمير</div>
+        <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo"><i class="fas fa-tooth"></i> د. أحمد سمير</div>
+        <ul class="nav-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#about">عن الدكتور</a></li>
+            <li><a href="#testimonials">آراء المرضى</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+        <a href="#appointment" class="btn-appointment">احجز موعد</a>
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>ابتسامتك هي أولويتنا 😁</h1>
+            <p>رعاية متكاملة لأسنانك بأحدث التقنيات وأمهر الأطباء</p>
+            <div class="hero-buttons">
+                <a href="#appointment" class="btn-primary">احجز موعدك الآن</a>
+                <a href="#services" class="btn-secondary">اعرف أكتر</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="section-title">خدماتنا</h2>
+        <div class="services-grid" id="services-grid"></div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600" alt="دكتور">
+            </div>
+            <div class="about-text">
+                <h2>عن الدكتور أحمد سمير</h2>
+                <p>دكتوراه في طب وجراحة الفم والأسنان من جامعة القاهرة، خبرة أكثر من 15 سنة في مجال طب الأسنان التجميلي والعلاجي.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <h3 class="counter" data-target="5000">0</h3>
+                        <p>مريض سعيد</p>
+                    </div>
+                    <div class="stat">
+                        <h3 class="counter" data-target="15">0</h3>
+                        <p>سنة خبرة</p>
+                    </div>
+                    <div class="stat">
+                        <h3 class="counter" data-target="20">0</h3>
+                        <p>شهادة متخصصة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h2 class="section-title">آراء مرضانا</h2>
+        <div class="testimonials-grid" id="testimonials-grid"></div>
+    </section>
+
+    <section class="appointment" id="appointment">
+        <h2 class="section-title">احجز موعدك</h2>
+        <form class="appointment-form">
+            <div class="form-row">
+                <input type="text" placeholder="اسمك الكامل" required>
+                <input type="tel" placeholder="رقم تليفونك" required>
+            </div>
+            <div class="form-row">
+                <select required>
+                    <option value="">اختار الخدمة</option>
+                    <option>تنظيف الأسنان</option>
+                    <option>تبييض الأسنان</option>
+                    <option>تركيب تقويم</option>
+                    <option>حشو الأسنان</option>
+                    <option>زراعة الأسنان</option>
+                </select>
+                <input type="date" required>
+            </div>
+            <textarea placeholder="ملاحظات إضافية (اختياري)"></textarea>
+            <button type="submit" class="btn-primary">تأكيد الحجز</button>
+        </form>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h2 class="section-title">جاليري العيادة</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item large">
+                <img src="https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800" alt="عيادة">
+                <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=400" alt="أسنان">
+                <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=400" alt="عيادة">
+                <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffedbe47425?w=400" alt="أسنان">
+                <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400" alt="عيادة">
+                <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+        </div>
+        <div class="lightbox" id="lightbox">
+            <span class="close-lightbox"><i class="fas fa-times"></i></span>
+            <img id="lightbox-img" src="" alt="">
+        </div>
+    </section>
+
+
+    <!-- Price List -->
+
+    <!-- Price List -->
+    <section class="prices">
+        <h2 class="section-title">أسعارنا</h2>
+        <div class="prices-grid">
+            <div class="price-card">
+                <i class="fas fa-tooth"></i>
+                <h3>تنظيف الأسنان</h3>
+                <div class="price">200 جنيه</div>
+                <p>جلسة واحدة</p>
+            </div>
+            <div class="price-card featured">
+                <div class="badge">الأكثر طلباً</div>
+                <i class="fas fa-star"></i>
+                <h3>تبييض الأسنان</h3>
+                <div class="price">800 جنيه</div>
+                <p>جلسة واحدة</p>
+            </div>
+            <div class="price-card">
+                <i class="fas fa-smile"></i>
+                <h3>تقويم الأسنان</h3>
+                <div class="price">5000 جنيه</div>
+                <p>كامل العلاج</p>
+            </div>
+            <div class="price-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>حشو الأسنان</h3>
+                <div class="price">300 جنيه</div>
+                <p>للسن الواحدة</p>
+            </div>
+            <div class="price-card featured">
+                <div class="badge">موصى به</div>
+                <i class="fas fa-plus-circle"></i>
+                <h3>زراعة الأسنان</h3>
+                <div class="price">8000 جنيه</div>
+                <p>للسن الواحدة</p>
+            </div>
+            <div class="price-card">
+                <i class="fas fa-child"></i>
+                <h3>طب أسنان الأطفال</h3>
+                <div class="price">150 جنيه</div>
+                <p>الكشف والعلاج</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <h2 class="section-title">أسئلة شائعة</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>هل تنظيف الأسنان مؤلم؟</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>لأ، تنظيف الأسنان مش مؤلم خالص، وبيتم باستخدام أدوات حديثة ومريحة.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>كم تستغرق جلسة التبييض؟</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>جلسة التبييض بتاخد من 45 دقيقة لساعة ونص، والنتيجة بتبان فوراً.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>هل التقويم الشفاف فعال؟</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>أيوه، التقويم الشفاف فعال جداً وأكثر راحة وجمالاً من التقويم التقليدي.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>كم تدوم زراعة الأسنان؟</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>زراعة الأسنان بتدوم مدى الحياة لو اتعملت صح واتحافظ عليها.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>هل العيادة بتستقبل الأطفال؟</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>أيوه، عندنا قسم متخصص لطب أسنان الأطفال بأجواء مريحة وودودة.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>هل في تقسيط للعلاج؟</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>أيوه، بنوفر أنظمة تقسيط مريحة على عمليات الزراعة والتقويم.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding: 100px 5%; background: var(--light);">
+        <h2 class="section-title">أوقات العمل</h2>
+        <div class="hours-grid">
+            <div class="hour-card">
+                <h4>السبت - الأربعاء</h4>
+                <p>10 صباحاً - 9 مساءً</p>
+            </div>
+            <div class="hour-card">
+                <h4>الخميس</h4>
+                <p>10 صباحاً - 6 مساءً</p>
+            </div>
+            <div class="hour-card">
+                <h4>الجمعة</h4>
+                <p>إجازة أسبوعية</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">تواصل معنا</h2>
+        <div class="contact-grid">
+            <div class="info-item"><i class="fas fa-map-marker-alt"></i><p>123 شارع التحرير، القاهرة</p></div>
+            <div class="info-item"><i class="fas fa-phone"></i><p>01000000000+</p></div>
+            <div class="info-item"><i class="fas fa-clock"></i><p>السبت - الخميس: 10 صباحاً - 9 مساءً</p></div>
+            <div class="info-item"><i class="fab fa-whatsapp"></i><p>واتساب متاح 24/7</p></div>
+        </div>
+        <div style="margin-top: 50px; border-radius: 20px; overflow: hidden; max-width: 1000px; margin: 50px auto 0;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.4!2d31.2357!3d30.0444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAyJzM5LjkiTiAzMcKwMTQnMDguNiJF!5e0!3m2!1sar!2seg!4v1"
+                width="100%"
+                height="350"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop"><i class="fas fa-arrow-up"></i></button>
+
+    <a href="https://wa.me/201000000000" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <p>© 2026 عيادة د. أحمد سمير - جميع الحقوق محفوظة</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
